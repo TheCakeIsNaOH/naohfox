@@ -31,4 +31,4 @@ jobs:
           choco install mozillabuild-internal --source="https://winnerd.naoh.host/repository/choco-hosted/" -y
 
       - name: Download and build Firefox
-        run: ./build.cmd
+        run: .\wrapper.ps1
