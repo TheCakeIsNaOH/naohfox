@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install MozillaBuild
-        run: choco install mozillabuild-internal --source="https://www.myget.org/F/choco-hooks/api/v2"
+        run: choco install mozillabuild-internal --source="https://winnerd.naoh.host/repository/choco-hosted/"
 
       - name: Download and build Firefox
         run: |
